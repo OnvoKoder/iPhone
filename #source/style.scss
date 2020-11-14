@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to left, black,whitesmoke);
+}
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+img{
+	width: 250px;
+}
+}
+.nav-links{
+	flex:1;
+	text-align: right;
+ul li{
+	list-style: none;
+	font-size: 17px;
+	display: inline-block;
+	margin: 0 20px;
+a{
+	text-decoration: none;
+	color:white;
+}
+}
+}
+.information{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 50%;
+	left: -10%;
+	transform: translateY(-50%);
+}
+#cicle{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	transition: 2s;
+}
+.feuture{
+	position: absolute;
+	display: flex;
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+img{
+	width: 70px;
+}
+h1{
+	right: 50px;
+}
+p{
+	padding-top: 8px;
+	word-wrap: break-word;
+}
+}
+.One{
+	top: 450px;
+	right:0px;
+}
+.Two{
+	top: 150px;
+	left: 400px;
+	transform: rotate(-90deg);
+}
+.Three{
+	bottom: 450px;
+	left: 50px;
+	transform: rotate(-180deg);
+}
+.Four{
+	bottom: 150px;
+	right: 400px;
+	transform: rotate(-270deg);
+}
+.mobile{
+	width: 700px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+.controls{
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+h3{
+	margin: 15px 0;
+	font-size: 30px;
+	color: whitesmoke;
+}
+}
+#upBtn{
+	width: 20px;
+	cursor: pointer;
+}
+#downBtn{
+	width: 20px;
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+.overlay{
+	width: 0;
+	height: 0;
+	border-top: 500px solid white;
+	border-right: 500px solid rgb(99, 99, 98);
+	border-bottom: 500px solid white;
+	border-left: 500px solid white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
